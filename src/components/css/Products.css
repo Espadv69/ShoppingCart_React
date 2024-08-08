@@ -5,12 +5,20 @@
   align-items: center;
 }
 
+.products .products__strongs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  text-wrap: pretty;
+}
+
 .products ul {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
     minmax(
-      200px,
+      220px,
       1fr
     )
   );
@@ -40,8 +48,7 @@
 .products img {
   border-radius: 4px;
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 300px;
   display: block;
-  object-fit: cover;
-  background: #fff;
+  object-fit: fill;
 }

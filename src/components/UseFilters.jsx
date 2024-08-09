@@ -19,5 +19,5 @@ export function useFilters() {
     })
   }
 
-  return { setFilters, filterProducts }
+  return { filters, setFilters, filterProducts }
 }

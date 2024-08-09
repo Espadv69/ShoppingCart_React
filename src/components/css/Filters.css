@@ -2,21 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: .5rem;
   font-size: 14px;
   font-weight: 700;
 }
 
 .filters > div {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
 }
 
-#category {
+.category {
   color: currentColor;
   border: 1px solid whitesmoke;
   background: transparent;
 }
 
-#category option {
+.category option {
   background: #121212;
 }
